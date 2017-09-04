@@ -5858,3 +5858,44 @@ button.close {
 
 /* TITLES
  * -------------------------- */
+.nav {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 1170px;
+  height: 113px;
+  margin: 0 auto;
+  background: #000000; }
+  .nav__logo {
+    float: left;
+    margin-top: 38px; }
+  .nav__menu {
+    margin-top: 46px;
+    float: right;
+    list-style-type: none; }
+  .nav__item {
+    margin-left: 59px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    float: left; }
+  .nav__link {
+    color: #fff;
+    opacity: .75;
+    text-transform: uppercase;
+    transition: opacity .4s; }
+    .nav__link:hover {
+      opacity: 1; }
+
+.header {
+  background: url("../../img/header-background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+
+.header-content {
+  display: table;
+  clear: both;
+  text-align: center; }
+  .header-content__tittle {
+    display: table-cell;
+    vertical-align: middle; }
