@@ -1,0 +1,29 @@
+// media-queries
+
+/*large devices, wide screens*/
+@mixin large-screen() {
+  @media only screen and (max-width: 1200px){
+    @content;
+  }
+}
+
+/*medium devices, desctops*/
+@mixin medium-screen() {
+  @media only screen and (max-width: 992px){
+    @content;
+  }
+}
+
+/*small devices, tablets*/
+@mixin small-screen() {
+  @media only screen and (max-width: 768px){
+    @content;
+  }
+}
+
+/*extra small devices, phones*/
+@mixin tiny-screen() {
+  @media only screen and (max-width: 480px){
+    @content;
+  }
+}
