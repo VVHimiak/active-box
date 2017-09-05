@@ -1,0 +1,79 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.advantages {
+  margin-top: 120px;
+  margin-bottom: 50px;
+
+  &__content {
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    margin-bottom: 70px;
+    height: 190px;
+    overflow: hidden;
+  }
+
+  &__content p {
+    color: $advantages-content-color;
+    line-height: 21px;
+  }
+
+  &__card--1 {
+    @include advantagesCard;
+    background-position-x: 10px;
+    background-position-y: 0;
+  }
+
+  &__card--2 {
+    @include advantagesCard;
+    background-position-x: -115px;
+    background-position-y: 0;
+  }
+
+  &__card--3 {
+    @include advantagesCard;
+    background-position-x: -217px;
+    background-position-y: 0;
+  }
+
+  &__card--4 {
+    @include advantagesCard;
+    background-position-x: 6px;
+    background-position-y: -87px;
+  }
+
+  &__card--5 {
+    @include advantagesCard;
+    background-position-x: -114px;
+    background-position-y: -87px;
+  }
+
+  &__card--6 {
+    @include advantagesCard;
+    background-position-x: -218px;
+    background-position-y: -87px;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: $advantages-link-color;
+
+    &:hover {
+      color: $advantages-link-color;
+    }
+
+    &:link {
+      text-decoration: none;
+    }
+
+    &:visited{
+      color: $advantages-link-color;
+    }
+  }
+}

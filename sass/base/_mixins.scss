@@ -27,3 +27,19 @@
     @content;
   }
 }
+
+//sections
+//section advantages
+@mixin advantagesCard {
+  background: url(../../img/advantageSprite.png) no-repeat;
+  margin: 0 auto 30px auto;
+  width: 79px;
+  height: 60px;
+}
+//section projects
+@mixin projectsBg {
+  height: 350px;
+  max-width: 553px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}

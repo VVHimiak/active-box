@@ -1,0 +1,54 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.projects-wrap {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.projects {
+
+  &__bg--1 {
+    background: url(../../img/project-1.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--2 {
+    background: url(../../img/project-2.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--3 {
+    background: url(../../img/project-3.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--4 {
+    background: url(../../img/project-4.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--5 {
+    background: url(../../img/project-5.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--6 {
+    background: url(../../img/project-6.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--7 {
+    background: url(../../img/project-7.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__bg--8 {
+    background: url(../../img/project-8.jpg) no-repeat center;
+    @include projectsBg();
+  }
+
+  &__content {
+
+  }
+
+}
