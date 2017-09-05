@@ -42,4 +42,12 @@
   max-width: 553px;
   margin: 0 auto;
   border: 1px solid #fff;
+  padding-left: 0;
+  padding-right: 0;
+
+  &:hover {
+    .projects__content {
+      opacity: .7;
+    }
+  }
 }

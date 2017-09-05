@@ -66,10 +66,7 @@
 
     &:hover {
       color: $advantages-link-color;
-    }
-
-    &:link {
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     &:visited{
