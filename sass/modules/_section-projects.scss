@@ -2,60 +2,58 @@
 @import "../base/mixins";
 
 .projects {
-  max-width: 1900px;
-  margin: 0 auto;
+  max-width: $site-width-first;
+  margin: 0 auto 100px auto;
 
   &__bg--1 {
-    background: url(../../img/project-1.jpg) no-repeat center;
+    background-image: url(../../img/project-1.jpg);
     @include projectsBg();
   }
 
   &__bg--2 {
-    background: url(../../img/project-2.jpg) no-repeat center;
+    background-image: url(../../img/project-2.jpg);
     @include projectsBg();
   }
 
   &__bg--3 {
-    background: url(../../img/project-3.jpg) no-repeat center;
+    background-image: url(../../img/project-3.jpg);
     @include projectsBg();
   }
 
   &__bg--4 {
-    background: url(../../img/project-4.jpg) no-repeat center;
+    background-image: url(../../img/project-4.jpg);
     @include projectsBg();
   }
 
   &__bg--5 {
-    background: url(../../img/project-5.jpg) no-repeat center;
+    background-image: url(../../img/project-5.jpg);
     @include projectsBg();
   }
 
   &__bg--6 {
-    background: url(../../img/project-6.jpg) no-repeat center;
+    background-image: url(../../img/project-6.jpg);
     @include projectsBg();
   }
 
   &__bg--7 {
-    background: url(../../img/project-7.jpg) no-repeat center;
+    background-image: url(../../img/project-7.jpg);
     @include projectsBg();
   }
 
   &__bg--8 {
-    background: url(../../img/project-8.jpg) no-repeat center;
+    background-image: url(../../img/project-8.jpg);
     @include projectsBg();
   }
 
   &__content {
     display: table;
-    background: red;
     width: 100%;
     height:100%;
+    background: #d23f3f;
     opacity: 0;
     transition: opacity .7s ease-in;
 
-    &--center {
-      display: table-row;
-    }
+    &--center {  display: table-row;  }
 
     &--middle {
       display: table-cell;
@@ -63,33 +61,27 @@
       text-align: center;
     }
   }
+
   &__link {
     margin: 0 auto;
-    color: #fff;
     display: block;
     font-family: 'Raleway', sans-serif;
+    color: #fff;
 
-    &:hover {
-      color: #fff;
-    }
+    &:hover {  color: #fff;  }
 
-    &:link {
-      color: #fff;
-    }
+    &:link {  color: #fff;  }
 
-    &:visited {
-      color: #fff;
-    }
+    &:visited {  color: #fff;  }
 
     h3 {
-      font-size: 14px;
       font-weight: bold;
+      font-size: 14px;
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 5px;
     }
-    p {
-      text-transform: capitalize;
-    }
+
+    p {  text-transform: capitalize;  }
   }
 }

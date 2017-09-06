@@ -1,0 +1,17 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.clients {
+  max-width: $site-width-first;
+  margin: 0 auto;
+  background: #53354a;
+  overflow: hidden;
+
+  &__zero--padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &__bg {
+
+  }
+}

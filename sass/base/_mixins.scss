@@ -29,25 +29,32 @@
 }
 
 //sections
+
 //section advantages
 @mixin advantagesCard {
-  background: url(../../img/advantageSprite.png) no-repeat;
   margin: 0 auto 30px auto;
   width: 79px;
   height: 60px;
+  background: url(../../img/advantageSprite.png) no-repeat;
 }
+
 //section projects
 @mixin projectsBg {
   height: 350px;
   max-width: 553px;
   margin: 0 auto;
-  border: 1px solid #fff;
   padding-left: 0;
   padding-right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #fff;
 
   &:hover {
     .projects__content {
       opacity: .7;
+    }
+    .projects__link {
+      opacity: 1!important;
     }
   }
 }

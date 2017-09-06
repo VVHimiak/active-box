@@ -1,0 +1,55 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.team {
+
+  &__content {
+    margin: 0 auto 96px auto;
+
+    p {
+      margin: 0 auto 25px auto;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-indent: 15px;
+      color: #6c7279;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2d3033;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  &__subtitle {
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: #e84545;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__ico {
+    @include small-screen() {
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+      margin-right: 3px;
+      padding: 8px 12px;
+      font-size: 18px;
+      color: #c6cacc;
+      border: 1px solid #e8ecee;
+    }
+  }
+}
