@@ -33,7 +33,6 @@
     opacity: .7;
     transition: opacity .4s;
 
-
     &:hover {
       color: #fff;
       text-decoration: underline;
@@ -121,92 +120,50 @@
   }
 }
 
+
+//bootstrap-settings modifications
 .navbar {
   border: none;
   margin: 0;
-}
 
-.navbar-brand {
-  padding: 0 0 0 15px;
-  height: auto;
-}
-
-.navbar-nav {
-  @include small-screen() {
-    margin: 10px 0 0 0;
+  &-brand {
+    padding: 0 0 0 15px;
+    height: auto;
   }
-  li {
-    @include medium-large-screen() {
-      margin-left: 60px;
+
+  &-nav {
+    @include small-screen() {
+      margin: 10px 0 0 0;
     }
+    li {
+      @include medium-large-screen() {
+        margin-left: 60px;
+      }
 
-    @include medium-small-screen() {
-      margin-left: 28px;
+      @include medium-small-screen() {
+        margin-left: 28px;
+      }
     }
   }
-}
 
-.navbar-nav li a {
-  padding: 0!important;
-}
-
-.navbar-collapse {
-  @include small-screen() {
-    margin-top: 10px;
-    border-top: 1px solid rgba(255, 255, 255, .3);
-    box-shadow: none;
-  }
-}
-
-.navbar-toggle {
-  padding: 0;
-  margin: -5px 15px 0 0;
-  color: #fff;
-  font-size: 30px;
-  line-height: 24px;
-  border: none;
-}
-
-
-
-
-
-
-
-
-/*
-.nav {
-  width: 100%;
-  max-width: $site-width-second;
-  height: 101px;
-  margin: 0 auto;
-  background: transparent;
-
-
-  &__logo {
-    float: left;
-    margin-top: 38px;
+  &-nav li a {
+    padding: 0 !important;
   }
 
-  &__menu {
-    float: right;
-    margin-top: 43px;
-    list-style-type: none;
+  &-collapse {
+    @include small-screen() {
+      margin-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, .3);
+      box-shadow: none;
+    }
   }
 
-  &__item {
-    float: left;
-    margin-left: 60px;
-    font-weight: 700;
-    font-size: 13px;
-    font-family: 'Raleway', sans-serif;
-  }
-
-  &__link {
-
+  &-toggle {
+    padding: 0;
+    margin: -5px 15px 0 0;
+    color: #fff;
+    font-size: 30px;
+    line-height: 24px;
+    border: none;
   }
 }
-*/
-
-
-

@@ -1,8 +1,7 @@
 @import "../base/variables";
 @import "../base/mixins";
 
-.advantages {
-  margin-bottom: 50px;
+.advantages {  margin-bottom: 50px;
 
   &__content {
     height: 190px;
@@ -62,8 +61,6 @@
       text-decoration: underline;
     }
 
-    &:visited{
-      color: $advantages-link-color;
-    }
+    &:visited{  color: $advantages-link-color;  }
   }
 }

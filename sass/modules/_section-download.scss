@@ -2,13 +2,11 @@
 @import "../base/mixins";
 
 .download {
-  text-align: center;
   margin: 0 auto 100px auto;
+  text-align: center;
 
   @include siteBtn;
-  &__btn {
-    padding: 11px 81px;
-  }
+  &__btn {  padding: 11px 81px;  }
 
   &__title {
     margin: 0 0 15px 0;
@@ -17,9 +15,7 @@
     line-height: 21px;
     color: $advantages-link-color;
 
-    @include small-screen() {
-      line-height: 28px;
-    }
+    @include small-screen() {  line-height: 28px;  }
   }
 
   &__subtitle {
@@ -29,6 +25,5 @@
     line-height: 21px;
     text-transform: uppercase;
     color: $advantages-link-color;
-
   }
 }

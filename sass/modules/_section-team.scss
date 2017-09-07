@@ -27,33 +27,35 @@
     color: $advantages-link-color;
     text-transform: capitalize;
 
-    @include small-screen() {  text-align: center;  }
+    @include small-screen() {
+      text-align: center;
+    }
   }
 
   &__subtitle {
     margin-bottom: 24px;
     font-size: 13px;
-    color: $work-overlay-color;
+    color: $btn-bg-color;
     text-transform: uppercase;
 
     @include small-screen() {  text-align: center;  }
-  }
 
-  &__ico {
+    &__ico {
 
-    @include small-screen() {  text-align: center;  }
+      @include small-screen() {  text-align: center;  }
 
-    a {
-      display: inline-block;
-      margin-right: 3px;
-      padding: 8px 12px;
-      font-size: 18px;
-      color: #c6cacc;
-      border: 1px solid #e8ecee;
+      a {
+        display: inline-block;
+        margin-right: 3px;
+        padding: 8px 12px;
+        font-size: 18px;
+        color: #c6cacc;
+        border: 1px solid #e8ecee;
 
-      &:hover {  background-color: $btn-bg-color;  }
+        &:hover {  background-color: $btn-bg-color;  }
+      }
+
+      a:first-child {  padding: 8px 15px;  }
     }
-
-    a:first-child {  padding: 8px 15px;  }
   }
 }
