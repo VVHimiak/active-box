@@ -1,0 +1,30 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.download {
+  text-align: center;
+  margin-bottom: 100px;
+
+  @include siteBtn;
+  &__btn {
+    padding: 13px 81px;
+  }
+
+  &__title {
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 21px;
+    color: $advantages-link-color;
+  }
+
+  &__subtitle {
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: $advantages-link-color;
+
+  }
+}

@@ -58,3 +58,28 @@
     }
   }
 }
+
+//section header and download
+@mixin siteBtn{
+  &__btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: $btn-bg-color;
+    border-radius: 3px;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

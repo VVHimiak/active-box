@@ -3,15 +3,24 @@
 
 .clients {
   max-width: $site-width-first;
-  margin: 0 auto;
-  background: #53354a;
+  margin: 0 auto 100px auto;
   overflow: hidden;
+
+  &__content {
+    background: $clients-bg-color;
+    height: 100%;
+    overflow: hidden;
+  }
+
 
   &__zero--padding {
     padding-left: 0;
     padding-right: 0;
+    box-sizing: border-box;
   }
-  &__bg {
 
-  }
 }
+
+
+
+

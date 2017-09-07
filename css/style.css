@@ -5872,7 +5872,26 @@ button.close {
   padding-left: 15px;
   padding-right: 15px;
   background: url("../../img/header-background.jpg") no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 100px; }
+  .header__btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e84545;
+    border-radius: 3px; }
+    .header__btn:hover {
+      color: #fff;
+      text-decoration: none; }
+    .header__btn:visited {
+      color: #fff;
+      text-decoration: none; }
+  .header__btn {
+    padding: 13px 51px; }
   .header__content {
     display: table;
     width: 100%;
@@ -5898,6 +5917,7 @@ button.close {
         font-size: 58px;
         line-height: 64px; } }
   .header__subtittle {
+    margin-bottom: 65px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -5906,24 +5926,6 @@ button.close {
       .header__subtittle {
         font-size: 20px;
         line-height: 26px; } }
-  .header__btn {
-    display: inline-block;
-    margin-top: 65px;
-    padding: 13px 51px;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 21px;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    background: #e84545;
-    border-radius: 3px; }
-    .header__btn:hover {
-      color: #fff;
-      text-decoration: none; }
-    .header__btn:visited {
-      color: #fff;
-      text-decoration: none; }
 
 .nav {
   width: 100%;
@@ -5964,8 +5966,7 @@ button.close {
 /*small devices, tablets*/
 /*extra small devices, phones*/
 .advantages {
-  margin-top: 120px;
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
   .advantages__content {
     height: 190px;
     margin-bottom: 70px;
@@ -6183,7 +6184,7 @@ button.close {
 /*small devices, tablets*/
 /*extra small devices, phones*/
 .team__content {
-  margin: 0 auto 96px auto; }
+  margin: 0 auto 100px auto; }
   .team__content p {
     margin: 0 auto 25px auto;
     font-weight: 400;
@@ -6222,6 +6223,8 @@ button.close {
   font-size: 18px;
   color: #c6cacc;
   border: 1px solid #e8ecee; }
+  .team__ico a:hover {
+    background-color: #e84545; }
 
 /*large devices, wide screens*/
 /*medium devices, desctops*/
@@ -6229,12 +6232,55 @@ button.close {
 /*extra small devices, phones*/
 .clients {
   max-width: 1900px;
-  margin: 0 auto;
-  background: #53354a;
+  margin: 0 auto 100px auto;
   overflow: hidden; }
+  .clients__content {
+    background: #53354a;
+    height: 100%;
+    overflow: hidden; }
   .clients__zero--padding {
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    box-sizing: border-box; }
+
+/*large devices, wide screens*/
+/*medium devices, desctops*/
+/*small devices, tablets*/
+/*extra small devices, phones*/
+.download {
+  text-align: center;
+  margin-bottom: 100px; }
+  .download__btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e84545;
+    border-radius: 3px; }
+    .download__btn:hover {
+      color: #fff;
+      text-decoration: none; }
+    .download__btn:visited {
+      color: #fff;
+      text-decoration: none; }
+  .download__btn {
+    padding: 13px 81px; }
+  .download__title {
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 21px;
+    color: #2d3033; }
+  .download__subtitle {
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2d3033; }
 
 body {
   font-family: 'Raleway', sans-serif;
