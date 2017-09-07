@@ -3,8 +3,7 @@
 
 .team {
 
-  &__content {
-    margin: 0 auto 100px auto;
+  &__content {  margin: 0 auto 100px auto;
 
     p {
       margin: 0 auto 25px auto;
@@ -26,22 +25,23 @@
     font-weight: 400;
     font-size: 22px;
     color: $advantages-link-color;
-    text-align: center;
     text-transform: capitalize;
+
+    @include small-screen() {  text-align: center;  }
   }
 
   &__subtitle {
     margin-bottom: 24px;
     font-size: 13px;
     color: $work-overlay-color;
-    text-align: center;
     text-transform: uppercase;
+
+    @include small-screen() {  text-align: center;  }
   }
 
   &__ico {
-    @include small-screen() {
-      text-align: center;
-    }
+
+    @include small-screen() {  text-align: center;  }
 
     a {
       display: inline-block;
@@ -51,9 +51,9 @@
       color: #c6cacc;
       border: 1px solid #e8ecee;
 
-      &:hover {
-        background-color: $btn-bg-color;
-      }
+      &:hover {  background-color: $btn-bg-color;  }
     }
+
+    a:first-child {  padding: 8px 15px;  }
   }
 }

@@ -4,22 +4,30 @@
 .clients {
   max-width: $site-width-first;
   margin: 0 auto 100px auto;
-  overflow: hidden;
 
-  &__content {
-    background: $clients-bg-color;
-    height: 100%;
-    overflow: hidden;
-  }
-
-
-  &__zero--padding {
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
+  &__img {
   }
 
 }
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+}
+
+.slide1 {
+  padding: 0;
+  background-color: #00b3ee;
+}
+
+.slide2 {
+  padding: 0;
+  background-color: #2b542c;
+}
+.slide11 {
+  background: url("../../img/clients.jpg") no-repeat center;
+}
+
 
 
 

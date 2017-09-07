@@ -7,7 +7,7 @@
 
   @include siteBtn;
   &__btn {
-    padding: 13px 81px;
+    padding: 11px 81px;
   }
 
   &__title {
@@ -16,10 +16,14 @@
     font-size: 28px;
     line-height: 21px;
     color: $advantages-link-color;
+
+    @include small-screen() {
+      line-height: 28px;
+    }
   }
 
   &__subtitle {
-    margin: 0 0 40px 0;
+    margin: 0 0 37px 0;
     font-weight: 700;
     font-size: 13px;
     line-height: 21px;

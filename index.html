@@ -6,47 +6,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
         <link rel="stylesheet" href="css/style.min.css">
         <link href="log.ico" rel="shortcut icon" type="image/x-icon" />
     </head>
     <body>
         <!-- HEADER ??????????????????????????????????-->
         <header class="header">
-                    <nav class="nav">
-                        <div class="nav__brand">
-                            <a class="nav__logo" href="#"><img src="img/logo.png" height="24" width="189"/></a>
+            <div class="header__menu--wrap">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="header__border">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <i class="fa fa-bars header__menu--ico" aria-hidden="true"></i>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="header__logo"></a>
                         </div>
-                        <ul class="nav__menu" id="navs">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">features</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">works</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">our team</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">testimonials</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">download</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header__content">
-                            <div class="header__content--row">
-                                <div class="header__content--cell">
-                                    <div class="header__content--center">
-                                        <h1 class="header__tittle">your favorite one page<br />multi purpose template</h1>
-                                        <h2 class="header__subtittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna<br />vel scelerisque nisl consectetur et.</h2>
-                                    </div>
-                                        <a href="#" class="header__btn">find out more</a>
-
-                                </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right header__menu">
+                                    <li><a href="#" class="header__menu--link">features</a></li>
+                                    <li><a href="#" class="header__menu--link">works</a></li>
+                                    <li><a href="#" class="header__menu--link">our team</a></li>
+                                    <li><a href="#" class="header__menu--link">testimonials</a></li>
+                                    <li><a href="#" class="header__menu--link">download</a></li>
+                                </ul>
                             </div>
+                        </div>
                     </div>
-                </header>
+                </nav>
+            </div>
+            <div class="header__content">
+                <div class="container">
+                    <div class="header__content--center">
+                        <h1 class="header__tittle">your favorite one page<br />multi purpose template</h1>
+                        <h2 class="header__subtittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna<br />vel scelerisque nisl consectetur et.</h2>
+
+                        <a href="#" class="header__btn">find out more</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <!-- ADVANTAGES -->
         <section class="advantages">
@@ -224,7 +225,7 @@
         </section>
 
         <!-- CLIENTS ???????????????????????????????? -->
-        <section class="clients">
+        <!--<section class="clients">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 clients__zero--padding left"  >
@@ -232,7 +233,7 @@
                     </div>
                     <div class="col-md-6 clients__zero--padding right">
                         <div id="clients__carousel" class="carousel slide clients__content" data-ride="carousel">
-                            <!-- Indicators -->
+                            <!-- Indicators
                                 <ol class="carousel-indicators">
                                     <li data-target="#clients__carousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#clients__carousel" data-slide-to="1"></li>
@@ -240,7 +241,7 @@
                                     <li data-target="#clients__carousel" data-slide-to="3"></li>
                                     <li data-target="#clients__carousel" data-slide-to="4"></li>
                                 </ol>
-                            <!-- Wrapper for slides -->
+                            <!-- Wrapper for slides
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
                                     <div class="clients__content">
@@ -277,7 +278,26 @@
                     </div>
                 </div>
             </div>
+        </section>-->
+        <section class="clients">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="col-md-6">
+                            <div class="swiper-slide slide1">Slide 1</div>
+                            <div class="swiper-slide slide2">Slide 2</div>                                  </div>
+
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!------------->
+
 
         <!-- DOWNLOAD -->
         <section class="download">
@@ -304,18 +324,19 @@
                         </div>
                         <div class="col-sm-4">
                             <h3 class="footer__title">about activebox</h3>
-                            <p class="footer__subtitle">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p class="footer__subtitle">Cras justo odio, dapibus ac facilisis in, egestas eget<br />quam. Donec ullamcorper nulla non metus auctor<br />fringilla.</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="footer__copyright">
                 <p>Copyright &copy; 2017 ActiveBox. All Rights Reserved<br />
-                    Made with <img src="img/footer-heart.jpg" alt=""> by Volodymyr Himiak</span></p>
+                    Made with <i class="fa fa-heart" aria-hidden="true"></i><span> by <a href="https://github.com/VVHimiak" target="_blank">Volodymyr Himiak</a></span></p>
             </section>
         </footer>
 
         <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.min.js"></script>
     </body>

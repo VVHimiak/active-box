@@ -2,74 +2,186 @@
 @import "../base/mixins";
 
 .header {
-  min-height: 650px;
-  height: 100vh;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: url("../../img/header-background.jpg") no-repeat center;
+  max-width: $site-width-first;
+  margin: 0 auto 120px auto;
+  background: url("../../img/header-background.jpg") no-repeat center center;
   background-size: cover;
-  margin-bottom: 100px;
 
-  @include siteBtn;
-  &__btn {
-    padding: 13px 51px;
-  }
-
-  &__content {
-    display: table;
-    width: 100%;
-    height: 95%;
-    color: #fff;
-
-    &--row {  display: table-row;  }
-
-    &--cell {
-      display: table-cell;
-      text-align: center;
-      vertical-align: middle;
+  &__menu {
+    @include small-screen--up() {
+      padding-top: 2px;
     }
 
+  }
+
+  &__border {
+    padding-top: 38px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+
+    @include small-screen() {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &__menu--link {
+    font: 700 13px 'Raleway', sans-serif;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .7;
+    transition: opacity .4s;
+
+
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+      opacity: 1;
+      background: inherit!important;
+    }
+
+    &:link {
+      text-decoration: none;
+      background: inherit!important;
+    }
+
+    &:visited{
+      color: #fff;
+      background: inherit!important;
+    }
+  }
+
+
+  //header-content
+  &__content {
+    text-align: center;
+    color: #fff;
+
     &--center {
-      max-width: 920px;
-      margin: 0 auto;
+      padding-top: 120px;
+      padding-bottom: 155px;
+
+      @include medium-screen {
+        padding-top: 90px;
+        padding-bottom: 125px;
+      }
     }
   }
 
   &__tittle {
+    margin-bottom: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 65px;
     line-height: 71px;
     text-transform: uppercase;
 
-    @include large-screen() {
-      font-size: 58px;
-      line-height: 64px;
+    @include medium-screen() {
+      font-size: 50px;
+      line-height: 56px;
+    }
+
+    @include small-screen () {
+      font-size: 28px;
+      line-height: 26px;
+    }
+
+    @include tiny-screen() {
+
     }
   }
 
   &__subtittle {
-    margin-bottom: 65px;
+    margin-bottom: 75px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
 
-
     @include medium-screen() {
-      font-size: 20px;
+      font-size: 17px;
       line-height: 26px;
+    }
+
+    @include small-screen () {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    @include tiny-screen () {
+
+    }
+  }
+
+  @include siteBtn;
+  &__btn {
+    margin: 0 auto;
+    padding: 13px 51px;
+  }
+}
+
+.navbar {
+  border: none;
+  margin: 0;
+}
+
+.navbar-brand {
+  padding: 0 0 0 15px;
+  height: auto;
+}
+
+.navbar-nav {
+  @include small-screen() {
+    margin: 10px 0 0 0;
+  }
+  li {
+    @include medium-large-screen() {
+      margin-left: 60px;
+    }
+
+    @include medium-small-screen() {
+      margin-left: 28px;
     }
   }
 }
 
+.navbar-nav li a {
+  padding: 0!important;
+}
+
+.navbar-collapse {
+  @include small-screen() {
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: none;
+  }
+}
+
+.navbar-toggle {
+  padding: 0;
+  margin: -5px 15px 0 0;
+  color: #fff;
+  font-size: 30px;
+  line-height: 24px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+/*
 .nav {
   width: 100%;
   max-width: $site-width-second;
   height: 101px;
   margin: 0 auto;
   background: transparent;
-  border-bottom: 1px solid rgba(255,255,255, .3);
+
 
   &__logo {
     float: left;
@@ -91,23 +203,10 @@
   }
 
   &__link {
-    color: #fff;
-    text-transform: uppercase;
-    opacity: .7;
-    transition: opacity .4s;
 
-    &:hover {
-      color: #fff;
-      text-decoration: underline;
-      opacity: 1;
-    }
-
-    &:link {  text-decoration: none;  }
-
-    &:visited{  color: #fff;  }
   }
 }
-
+*/
 
 
 
