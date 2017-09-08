@@ -5861,7 +5861,7 @@ button.close {
 .header {
   max-width: 1900px;
   margin: 0 auto 120px auto;
-  background: url("../../img/header-background.jpg") no-repeat center center;
+  background: url("../img/header-background.jpg") no-repeat center center;
   background-size: cover; }
   @media only screen and (min-width: 768px) {
     .header__menu {
@@ -6055,37 +6055,37 @@ button.close {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: 10px 0; }
   .advantages__card--2 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: -115px 0; }
   .advantages__card--3 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: -217px 0; }
   .advantages__card--4 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: 6px -87px; }
   .advantages__card--5 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: -114px -87px; }
   .advantages__card--6 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../../img/advantageSprite.png) no-repeat;
+    background: url(../img/advantageSprite.png) no-repeat;
     background-position: -218px -87px; }
   .advantages__link {
     display: inline-block;
@@ -6105,7 +6105,7 @@ button.close {
   max-width: 1900px;
   margin: 0 auto 100px auto; }
   .projects__bg--1 {
-    background-image: url(../../img/project-1.jpg);
+    background-image: url(../img/project-1.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6119,7 +6119,7 @@ button.close {
     .projects__bg--1:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--2 {
-    background-image: url(../../img/project-2.jpg);
+    background-image: url(../img/project-2.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6133,7 +6133,7 @@ button.close {
     .projects__bg--2:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--3 {
-    background-image: url(../../img/project-3.jpg);
+    background-image: url(../img/project-3.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6147,7 +6147,7 @@ button.close {
     .projects__bg--3:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--4 {
-    background-image: url(../../img/project-4.jpg);
+    background-image: url(../img/project-4.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6161,7 +6161,7 @@ button.close {
     .projects__bg--4:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--5 {
-    background-image: url(../../img/project-5.jpg);
+    background-image: url(../img/project-5.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6175,7 +6175,7 @@ button.close {
     .projects__bg--5:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--6 {
-    background-image: url(../../img/project-6.jpg);
+    background-image: url(../img/project-6.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6189,7 +6189,7 @@ button.close {
     .projects__bg--6:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--7 {
-    background-image: url(../../img/project-7.jpg);
+    background-image: url(../img/project-7.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6203,7 +6203,7 @@ button.close {
     .projects__bg--7:hover .projects__link {
       opacity: 1 !important; }
   .projects__bg--8 {
-    background-image: url(../../img/project-8.jpg);
+    background-image: url(../img/project-8.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6281,39 +6281,37 @@ button.close {
   @media only screen and (max-width: 767px) {
     .team__subtitle {
       text-align: center; } }
-  @media only screen and (max-width: 767px) {
-    .team__subtitle__ico {
-      text-align: center; } }
-  .team__subtitle__ico a {
-    display: inline-block;
-    margin-right: 3px;
-    padding: 8px 12px;
-    font-size: 18px;
-    color: #c6cacc;
-    border: 1px solid #e8ecee; }
-    .team__subtitle__ico a:hover {
-      background-color: #e84545; }
-  .team__subtitle__ico a:first-child {
-    padding: 8px 15px; }
+
+@media only screen and (max-width: 767px) {
+  .team__ico {
+    text-align: center; } }
+
+.team__ico a {
+  display: inline-block;
+  margin-right: 3px;
+  padding: 8px 12px;
+  font-size: 18px;
+  color: #c6cacc;
+  border: 1px solid #e8ecee; }
+  .team__ico a:hover {
+    background-color: #e84545; }
+
+.team__ico a:first-child {
+  padding: 8px 15px; }
 
 .clients {
+  position: relative;
   max-width: 1900px;
-  margin: 0 auto 100px auto; }
+  margin: 0 auto 100px auto;
+  height: 500px; }
 
 .swiper-container {
   width: 100%;
-  height: 500px; }
+  height: 100%; }
 
-.slide1 {
-  padding: 0;
-  background-color: #00b3ee; }
-
-.slide2 {
-  padding: 0;
-  background-color: #2b542c; }
-
-.slide11 {
-  background: url("../../img/clients.jpg") no-repeat center; }
+.swiper-slide {
+  background-position: center;
+  background-size: cover; }
 
 .download {
   margin: 0 auto 100px auto;

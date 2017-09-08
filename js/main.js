@@ -1,8 +1,10 @@
 $(document).ready(function () {
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        slidesPerView: 2,
         paginationClickable: true,
-        spaceBetween: 30
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade'
     });
 });

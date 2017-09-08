@@ -38,8 +38,10 @@
     color: $btn-bg-color;
     text-transform: uppercase;
 
-    @include small-screen() {  text-align: center;  }
-
+    @include small-screen() {
+      text-align: center;
+    }
+  }
     &__ico {
 
       @include small-screen() {  text-align: center;  }
@@ -58,4 +60,3 @@
       a:first-child {  padding: 8px 15px;  }
     }
   }
-}
