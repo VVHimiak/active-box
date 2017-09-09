@@ -45,17 +45,17 @@
 
 //sections
 
-//section advantages
-@mixin advantagesCard {
+//section features
+@mixin featuresCard {
   margin: 0 auto 30px auto;
   width: 79px;
   height: 60px;
-  background: url(../img/advantageSprite.png) no-repeat;
+  background: url(../img/featureSprite.png) no-repeat;
 }
 
 
-//section projects
-@mixin projectsBg {
+//section works
+@mixin worksBg {
   height: 350px;
   max-width: 553px;
   margin: 0 auto;
@@ -66,10 +66,10 @@
   border: 1px solid #fff;
 
   &:hover {
-    .projects__content {
+    .works__content {
       opacity: .7;
     }
-    .projects__link {
+    .works__link {
       opacity: 1!important;
     }
   }

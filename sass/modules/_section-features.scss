@@ -1,7 +1,7 @@
 @import "../base/variables";
 @import "../base/mixins";
 
-.advantages {  margin-bottom: 50px;
+.features {  margin-bottom: 50px;
 
   &__content {
     height: 190px;
@@ -13,37 +13,37 @@
   }
 
   &__content p {
-    color: $advantages-content-color;
+    color: $features-content-color;
     line-height: 21px;
   }
 
   &__card--1 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: 10px 0;
   }
 
   &__card--2 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: -115px 0;
   }
 
   &__card--3 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: -217px 0;
   }
 
   &__card--4 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: 6px -87px;
   }
 
   &__card--5 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: -114px -87px;
   }
 
   &__card--6 {
-    @include advantagesCard;
+    @include featuresCard;
     background-position: -218px -87px;
   }
 
@@ -52,18 +52,18 @@
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
-    color: $advantages-link-color;
+    color: $features-link-color;
     text-decoration: none;
     text-transform: uppercase;
 
 
 
     &:hover {
-      color: $advantages-link-color;
+      color: $features-link-color;
       transition: text-decoration 1s;
       text-decoration: underline;
     }
 
-    &:visited{  color: $advantages-link-color;  }
+    &:visited{  color: $features-link-color;  }
   }
 }

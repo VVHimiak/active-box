@@ -20,7 +20,7 @@
     font-weight: 300;
     font-size: 28px;
     line-height: 21px;
-    color: $advantages-link-color;
+    color: $features-link-color;
 
     @include small-screen() {  line-height: 28px;  }
   }
@@ -31,6 +31,6 @@
     font-size: 13px;
     line-height: 21px;
     text-transform: uppercase;
-    color: $advantages-link-color;
+    color: $features-link-color;
   }
 }

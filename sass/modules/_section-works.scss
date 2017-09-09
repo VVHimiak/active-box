@@ -1,48 +1,48 @@
 @import "../base/variables";
 @import "../base/mixins";
 
-.projects {
+.works {
   max-width: $site-width-first;
   margin: 0 auto 100px auto;
 
   &__bg--1 {
-    background-image: url(../img/project-1.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-1.jpg);
+    @include worksBg();
   }
 
   &__bg--2 {
-    background-image: url(../img/project-2.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-2.jpg);
+    @include worksBg();
   }
 
   &__bg--3 {
-    background-image: url(../img/project-3.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-3.jpg);
+    @include worksBg();
   }
 
   &__bg--4 {
-    background-image: url(../img/project-4.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-4.jpg);
+    @include worksBg();
   }
 
   &__bg--5 {
-    background-image: url(../img/project-5.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-5.jpg);
+    @include worksBg();
   }
 
   &__bg--6 {
-    background-image: url(../img/project-6.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-6.jpg);
+    @include worksBg();
   }
 
   &__bg--7 {
-    background-image: url(../img/project-7.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-7.jpg);
+    @include worksBg();
   }
 
   &__bg--8 {
-    background-image: url(../img/project-8.jpg);
-    @include projectsBg();
+    background-image: url(../img/works-8.jpg);
+    @include worksBg();
   }
 
   &__content {

@@ -6450,55 +6450,55 @@ button.swiper-pagination-bullet {
       font-weight: 600;
       color: #fff; }
 
-.advantages {
+.features {
   margin-bottom: 50px; }
-  .advantages__content {
+  .features__content {
     height: 190px;
     margin-bottom: 70px;
     padding-left: 45px;
     padding-right: 45px;
     text-align: center;
     overflow: hidden; }
-  .advantages__content p {
+  .features__content p {
     color: #6c7279;
     line-height: 21px; }
-  .advantages__card--1 {
+  .features__card--1 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: 10px 0; }
-  .advantages__card--2 {
+  .features__card--2 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: -115px 0; }
-  .advantages__card--3 {
+  .features__card--3 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: -217px 0; }
-  .advantages__card--4 {
+  .features__card--4 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: 6px -87px; }
-  .advantages__card--5 {
+  .features__card--5 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: -114px -87px; }
-  .advantages__card--6 {
+  .features__card--6 {
     margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
-    background: url(../img/advantageSprite.png) no-repeat;
+    background: url(../img/featureSprite.png) no-repeat;
     background-position: -218px -87px; }
-  .advantages__link {
+  .features__link {
     display: inline-block;
     margin-bottom: 20px;
     font-weight: bold;
@@ -6506,20 +6506,20 @@ button.swiper-pagination-bullet {
     color: #2d3033;
     text-decoration: none;
     text-transform: uppercase; }
-    .advantages__link:hover {
+    .features__link:hover {
       color: #2d3033;
       transition: -webkit-text-decoration 1s;
       transition: text-decoration 1s;
       transition: text-decoration 1s, -webkit-text-decoration 1s;
       text-decoration: underline; }
-    .advantages__link:visited {
+    .features__link:visited {
       color: #2d3033; }
 
-.projects {
+.works {
   max-width: 1900px;
   margin: 0 auto 100px auto; }
-  .projects__bg--1 {
-    background-image: url(../img/project-1.jpg);
+  .works__bg--1 {
+    background-image: url(../img/works-1.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6528,12 +6528,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--1:hover .projects__content {
+    .works__bg--1:hover .works__content {
       opacity: .7; }
-    .projects__bg--1:hover .projects__link {
+    .works__bg--1:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--2 {
-    background-image: url(../img/project-2.jpg);
+  .works__bg--2 {
+    background-image: url(../img/works-2.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6542,12 +6542,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--2:hover .projects__content {
+    .works__bg--2:hover .works__content {
       opacity: .7; }
-    .projects__bg--2:hover .projects__link {
+    .works__bg--2:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--3 {
-    background-image: url(../img/project-3.jpg);
+  .works__bg--3 {
+    background-image: url(../img/works-3.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6556,12 +6556,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--3:hover .projects__content {
+    .works__bg--3:hover .works__content {
       opacity: .7; }
-    .projects__bg--3:hover .projects__link {
+    .works__bg--3:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--4 {
-    background-image: url(../img/project-4.jpg);
+  .works__bg--4 {
+    background-image: url(../img/works-4.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6570,12 +6570,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--4:hover .projects__content {
+    .works__bg--4:hover .works__content {
       opacity: .7; }
-    .projects__bg--4:hover .projects__link {
+    .works__bg--4:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--5 {
-    background-image: url(../img/project-5.jpg);
+  .works__bg--5 {
+    background-image: url(../img/works-5.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6584,12 +6584,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--5:hover .projects__content {
+    .works__bg--5:hover .works__content {
       opacity: .7; }
-    .projects__bg--5:hover .projects__link {
+    .works__bg--5:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--6 {
-    background-image: url(../img/project-6.jpg);
+  .works__bg--6 {
+    background-image: url(../img/works-6.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6598,12 +6598,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--6:hover .projects__content {
+    .works__bg--6:hover .works__content {
       opacity: .7; }
-    .projects__bg--6:hover .projects__link {
+    .works__bg--6:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--7 {
-    background-image: url(../img/project-7.jpg);
+  .works__bg--7 {
+    background-image: url(../img/works-7.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6612,12 +6612,12 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--7:hover .projects__content {
+    .works__bg--7:hover .works__content {
       opacity: .7; }
-    .projects__bg--7:hover .projects__link {
+    .works__bg--7:hover .works__link {
       opacity: 1 !important; }
-  .projects__bg--8 {
-    background-image: url(../img/project-8.jpg);
+  .works__bg--8 {
+    background-image: url(../img/works-8.jpg);
     height: 350px;
     max-width: 553px;
     margin: 0 auto;
@@ -6626,11 +6626,11 @@ button.swiper-pagination-bullet {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #fff; }
-    .projects__bg--8:hover .projects__content {
+    .works__bg--8:hover .works__content {
       opacity: .7; }
-    .projects__bg--8:hover .projects__link {
+    .works__bg--8:hover .works__link {
       opacity: 1 !important; }
-  .projects__content {
+  .works__content {
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -6642,24 +6642,24 @@ button.swiper-pagination-bullet {
     background: #d23f3f;
     opacity: 0;
     transition: opacity .7s ease-in; }
-  .projects__link {
+  .works__link {
     text-align: center;
     display: block;
     font-family: 'Raleway', sans-serif;
     color: #fff; }
-    .projects__link:hover {
+    .works__link:hover {
       color: #fff; }
-    .projects__link:link {
+    .works__link:link {
       color: #fff; }
-    .projects__link:visited {
+    .works__link:visited {
       color: #fff; }
-    .projects__link h3 {
+    .works__link h3 {
       font-weight: bold;
       font-size: 14px;
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 5px; }
-    .projects__link p {
+    .works__link p {
       text-transform: capitalize; }
 
 .team__content {

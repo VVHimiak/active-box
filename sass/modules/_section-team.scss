@@ -11,7 +11,7 @@
       font-size: 14px;
       line-height: 21px;
       text-indent: 15px;
-      color: $advantages-content-color;
+      color: $features-content-color;
     }
   }
 
@@ -24,7 +24,7 @@
     margin-top: 32px;
     font-weight: 400;
     font-size: 22px;
-    color: $advantages-link-color;
+    color: $features-link-color;
     text-transform: capitalize;
 
     @include small-screen() {
