@@ -56,8 +56,11 @@
     text-decoration: none;
     text-transform: uppercase;
 
+
+
     &:hover {
       color: $advantages-link-color;
+      transition: text-decoration 1s;
       text-decoration: underline;
     }
 

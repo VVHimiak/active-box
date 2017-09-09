@@ -6,7 +6,14 @@
   text-align: center;
 
   @include siteBtn;
-  &__btn {  padding: 11px 81px;  }
+  &__btn {  padding: 11px 81px;
+
+    @include linkTransition();
+
+    &:hover {
+      background: $btn-bg-color-hover;
+    }
+  }
 
   &__title {
     margin: 0 0 15px 0;

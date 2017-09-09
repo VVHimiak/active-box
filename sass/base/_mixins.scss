@@ -77,7 +77,7 @@
 
 
 //section header and download
-@mixin siteBtn{
+@mixin siteBtn {
   &__btn {
     display: inline-block;
     font-weight: 600;
@@ -99,4 +99,9 @@
       text-decoration: none;
     }
   }
+}
+
+//general rouls
+@mixin linkTransition {
+  transition: background-color .7s;
 }

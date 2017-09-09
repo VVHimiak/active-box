@@ -5,6 +5,12 @@ $(document).ready(function () {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         spaceBetween: 30,
+        autoplayDisableOnInteraction: true,
+        autoplay: 2000,
         effect: 'fade'
+    });
+
+    $('.navbar-toggle').on('click', function() {
+        $('.navbar-collapse').slideToggle();
     });
 });

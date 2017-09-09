@@ -31,7 +31,8 @@
     color: #fff;
     text-transform: uppercase;
     opacity: .7;
-    transition: opacity .4s;
+
+    @include linkTransition();
 
     &:hover {
       color: #fff;
@@ -107,16 +108,18 @@
       font-size: 14px;
       line-height: 16px;
     }
-
-    @include tiny-screen () {
-
-    }
   }
 
   @include siteBtn;
   &__btn {
     margin: 0 auto;
     padding: 13px 51px;
+
+    @include linkTransition();
+
+    &:hover {
+      background: $btn-bg-color-hover;
+    }
   }
 }
 
