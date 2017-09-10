@@ -8,10 +8,7 @@
   background-size: cover;
 
   &__menu {
-    @include small-screen--up() {
-      padding-top: 2px;
-    }
-
+    @include small-screen--up() {  padding-top: 2px;  }
   }
 
   &__border {
@@ -26,8 +23,8 @@
   }
 
   &__menu--link {
-    font: 700 13px 'Raleway', sans-serif;
     padding: 0;
+    font: 700 13px 'Raleway', sans-serif;
     color: #fff;
     text-transform: uppercase;
     opacity: .7;
@@ -51,7 +48,6 @@
       background: inherit!important;
     }
   }
-
 
   //header-content
   &__content {
@@ -86,18 +82,11 @@
       font-size: 28px;
       line-height: 26px;
     }
-
-    @include tiny-screen() {
-
-    }
   }
 
   &__subtittle {
     margin-bottom: 75px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    font: 400 22px/32px 'Raleway', sans-serif;
 
     @include medium-screen() {
       font-size: 17px;
@@ -123,35 +112,27 @@
   }
 }
 
-
 //bootstrap-settings modifications
 .navbar {
-  border: none;
   margin: 0;
+  border: none;
 
   &-brand {
-    padding: 0 0 0 15px;
     height: auto;
+    padding: 0 0 0 15px;
   }
 
   &-nav {
-    @include small-screen() {
-      margin: 10px 0 0 0;
-    }
+    @include small-screen() {  margin: 10px 0 0 0;  }
+
     li {
-      @include medium-large-screen() {
-        margin-left: 60px;
-      }
+      @include medium-large-screen() {  margin-left: 60px;  }
 
-      @include medium-small-screen() {
-        margin-left: 28px;
-      }
+      @include medium-small-screen() {  margin-left: 28px;  }
     }
   }
 
-  &-nav li a {
-    padding: 0 !important;
-  }
+  &-nav li a {  padding: 0 !important;  }
 
   &-collapse {
     @include small-screen() {
@@ -162,8 +143,8 @@
   }
 
   &-toggle {
-    padding: 0;
     margin: -5px 15px 0 0;
+    padding: 0;
     color: #fff;
     font-size: 30px;
     line-height: 24px;

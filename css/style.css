@@ -6282,8 +6282,8 @@ button.swiper-pagination-bullet {
         padding-top: 10px;
         padding-bottom: 10px; } }
   .header__menu--link {
-    font: 700 13px 'Raleway', sans-serif;
     padding: 0;
+    font: 700 13px 'Raleway', sans-serif;
     color: #fff;
     text-transform: uppercase;
     opacity: .7;
@@ -6305,7 +6305,7 @@ button.swiper-pagination-bullet {
     .header__content--center {
       padding-top: 120px;
       padding-bottom: 155px; }
-      @media only screen and (max-width: 992px) {
+      @media only screen and (max-width: 991px) {
         .header__content--center {
           padding-top: 90px;
           padding-bottom: 125px; } }
@@ -6316,7 +6316,7 @@ button.swiper-pagination-bullet {
     font-size: 65px;
     line-height: 71px;
     text-transform: uppercase; }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 991px) {
       .header__tittle {
         font-size: 50px;
         line-height: 56px; } }
@@ -6326,11 +6326,8 @@ button.swiper-pagination-bullet {
         line-height: 26px; } }
   .header__subtittle {
     margin-bottom: 75px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px; }
-    @media only screen and (max-width: 992px) {
+    font: 400 22px/32px 'Raleway', sans-serif; }
+    @media only screen and (max-width: 991px) {
       .header__subtittle {
         font-size: 17px;
         line-height: 26px; } }
@@ -6362,18 +6359,18 @@ button.swiper-pagination-bullet {
       background: #f69393; }
 
 .navbar {
-  border: none;
-  margin: 0; }
+  margin: 0;
+  border: none; }
   .navbar-brand {
-    padding: 0 0 0 15px;
-    height: auto; }
+    height: auto;
+    padding: 0 0 0 15px; }
   @media only screen and (max-width: 767px) {
     .navbar-nav {
       margin: 10px 0 0 0; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 992px) {
     .navbar-nav li {
       margin-left: 60px; } }
-  @media only screen and (min-width: 768px) and (max-width: 992px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-nav li {
       margin-left: 28px; } }
   .navbar-nav li a {
@@ -6384,8 +6381,8 @@ button.swiper-pagination-bullet {
       border-top: 1px solid rgba(255, 255, 255, 0.3);
       box-shadow: none; } }
   .navbar-toggle {
-    padding: 0;
     margin: -5px 15px 0 0;
+    padding: 0;
     color: #fff;
     font-size: 30px;
     line-height: 24px;
@@ -6463,39 +6460,39 @@ button.swiper-pagination-bullet {
     color: #6c7279;
     line-height: 21px; }
   .features__card--1 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: 10px 0; }
   .features__card--2 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: -115px 0; }
   .features__card--3 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: -217px 0; }
   .features__card--4 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: 6px -87px; }
   .features__card--5 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: -114px -87px; }
   .features__card--6 {
-    margin: 0 auto 30px auto;
     width: 79px;
     height: 60px;
+    margin: 0 auto 30px auto;
     background: url(../img/featureSprite.png) no-repeat;
     background-position: -218px -87px; }
   .features__link {
@@ -6716,8 +6713,8 @@ button.swiper-pagination-bullet {
 .testimonials {
   position: relative;
   max-width: 1900px;
-  margin: 0 auto 100px auto;
-  height: 500px; }
+  height: 500px;
+  margin: 0 auto 100px auto; }
   .testimonials__row {
     margin: 0; }
   .testimonials__wrap {
@@ -6725,41 +6722,53 @@ button.swiper-pagination-bullet {
   .testimonials__img {
     height: 500px;
     padding: 0;
-    background: #53354a url("../../img/testimonials.jpg") no-repeat center;
+    background: #53354a url("../img/testimonials.jpg") no-repeat center;
     background-size: cover; }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 991px) {
       .testimonials__img {
         height: 250px;
         background-position: center top; } }
   .testimonials__content {
+    box-sizing: border-box;
     display: -webkit-box;
     display: flex;
-    -webkit-box-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-            align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
     padding: 0 0 0 7.5%;
     background-color: #53354a;
     height: 500px; }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 991px) {
       .testimonials__content {
         height: 250px; } }
     .testimonials__content blockquote {
-      margin: 0;
+      margin: 15px 0;
       padding: 0;
       font: italic 36px/42px 'Cardo', serif;
       color: #fff;
       border: none; }
+      @media only screen and (max-width: 767px) {
+        .testimonials__content blockquote {
+          font-size: 28px;
+          line-height: 26px; } }
     .testimonials__content h3 {
+      margin: 15px 0;
+      padding: 0;
       font: 700 13px/21px 'Raleway', sans-serif;
       color: #fff;
       text-transform: uppercase; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (min-width: 991px) and (max-width: 1091px) {
+    .testimonials__text--break {
+      display: none; } }
+  @media only screen and (max-width: 391px) {
+    .testimonials__text--break {
+      display: none; } }
+  @media only screen and (max-width: 991px) {
     .testimonials__paginations {
       display: none; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 992px) {
     .testimonials__arrows {
       display: none; } }
 
@@ -6770,6 +6779,17 @@ button.swiper-pagination-bullet {
 .swiper-slide {
   background-position: center;
   background-size: cover; }
+
+.swiper-pagination {
+  text-align: left; }
+
+.swiper-pagination-bullets {
+  left: 70% !important;
+  bottom: 95px !important; }
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px; }
 
 .download {
   margin: 0 auto 100px auto;

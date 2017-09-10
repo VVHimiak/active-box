@@ -7,19 +7,19 @@
 }
 
 @mixin medium-large-screen() {
-  @media only screen and (min-width: 993px){
+  @media only screen and (min-width: 992px){
     @content;
   }
 }
 
 @mixin medium-screen() {
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 991px){
     @content;
   }
 }
 
 @mixin medium-small-screen() {
-  @media only screen and (min-width: 768px) and (max-width: 992px){
+  @media only screen and (min-width: 768px) and (max-width: 991px){
     @content;
   }
 }
@@ -42,17 +42,28 @@
   }
 }
 
+@mixin testimonials-text-break() {
+  @media only screen and (min-width: 991px) and (max-width: 1091px){
+    @content;
+  }
+}
+
+@mixin testimonials-text-break-tiny() {
+  @media only screen and (max-width: 391px){
+    @content;
+  }
+}
+
 
 //sections
 
 //section features
 @mixin featuresCard {
-  margin: 0 auto 30px auto;
   width: 79px;
   height: 60px;
+  margin: 0 auto 30px auto;
   background: url(../img/featureSprite.png) no-repeat;
 }
-
 
 //section works
 @mixin worksBg {
@@ -66,15 +77,10 @@
   border: 1px solid #fff;
 
   &:hover {
-    .works__content {
-      opacity: .7;
-    }
-    .works__link {
-      opacity: 1!important;
-    }
+    .works__content {  opacity: .7;  }
+    .works__link {  opacity: 1!important;  }
   }
 }
-
 
 //section header and download
 @mixin siteBtn {
@@ -102,6 +108,4 @@
 }
 
 //general rouls
-@mixin linkTransition {
-  transition: background-color .7s;
-}
+@mixin linkTransition {  transition: background-color .7s;  }

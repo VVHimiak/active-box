@@ -5,8 +5,8 @@ $(document).ready(function () {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         spaceBetween: 30,
-        autoplayDisableOnInteraction: true,
-        autoplay: 2000,
+        autoplayDisableOnInteraction: false,
+        autoplay: 5000,
         effect: 'fade'
     });
 

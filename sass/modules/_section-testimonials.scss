@@ -4,21 +4,17 @@
 .testimonials {
   position: relative;
   max-width: $site-width-first;
-  margin: 0 auto 100px auto;
   height: 500px;
+  margin: 0 auto 100px auto;
 
-  &__row {
-    margin: 0;
-  }
+  &__row {  margin: 0;  }
 
-  &__wrap {
-    padding: 0;
-  }
+  &__wrap {  padding: 0;  }
 
   &__img {
     height: 500px;
     padding: 0;
-    background: $testimonials-bg-color url("../../img/testimonials.jpg") no-repeat center;
+    background: $testimonials-bg-color url("../img/testimonials.jpg") no-repeat center;
     background-size: cover;
 
     @include medium-screen() {
@@ -28,56 +24,83 @@
   }
 
   &__content {
+    box-sizing: border-box;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 0 0 0 7.5%;
     background-color: $testimonials-bg-color;
     height: 500px;
 
-    @include medium-screen() {
-      height: 250px;
-    }
+    @include medium-screen() {  height: 250px;  }
 
     blockquote {
-      margin: 0;
+      margin: 15px 0;
       padding: 0;
       font: italic 36px/42px 'Cardo', serif;
       color: #fff;
       border: none;
+
+      @include small-screen () {
+        font-size: 28px;
+        line-height: 26px;
+      }
     }
+
     h3 {
+      margin: 15px 0;
+      padding: 0;
       font: 700 13px/21px 'Raleway', sans-serif;
       color: #fff;
       text-transform: uppercase;
     }
+  }
 
+  &__text--break {
+    @include testimonials-text-break {  display: none;  }
+  }
+
+  &__text--break {
+    @include testimonials-text-break-tiny {  display: none;  }
   }
 
   &__paginations {
-
-    @include medium-screen() {
-      display: none;
-    }
+    @include medium-screen() {  display: none;  }
   }
 
   &__arrows {
-
     @include medium-large-screen(){
       display: none;
     }
   }
 }
-  .swiper-container {
-    width: 100%;
-    height: 100%;
+
+
+//swiper-settings modifications
+  .swiper {
+    &-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    &-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    &-pagination {  text-align: left;  }
+
+    &-pagination-bullets {
+      left: 70% !important;
+      bottom: 95px!important;
+    }
+
+    &-pagination-bullet {
+      width: 10px;
+      height: 10px;
+    }
   }
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
+
 
 
 
