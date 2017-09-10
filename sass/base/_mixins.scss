@@ -78,7 +78,7 @@
 
   &:hover {
     .works__content {  opacity: .7;  }
-    
+
     .works__link {  opacity: 1!important;  }
   }
 }
@@ -105,6 +105,17 @@
       color: #fff;
       text-decoration: none;
     }
+  }
+}
+
+//section testimonials
+@mixin testimonialsImg {
+  height: 500px;
+  padding: 0;
+  background-size: cover;
+  @include medium-screen() {
+    height: 250px;
+    background-position: center top;
   }
 }
 

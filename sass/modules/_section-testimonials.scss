@@ -11,16 +11,14 @@
 
   &__wrap {  padding: 0;  }
 
-  &__img {
-    height: 500px;
-    padding: 0;
-    background: $testimonials-bg-color url("../img/testimonials.jpg") no-repeat center;
-    background-size: cover;
-
-    @include medium-screen() {
-      height: 250px;
-      background-position: center top;
-    }
+  &__img--1 {
+   @include testimonialsImg;
+    background: $testimonials-bg-color url("../img/testimonials-1.jpg") no-repeat center;
+  }
+  
+  &__img--2 {
+   @include testimonialsImg;
+    background: $testimonials-bg-color url("../img/testimonials-2.jpg") no-repeat center;
   }
 
   &__content {

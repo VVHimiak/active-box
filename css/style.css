@@ -8855,9 +8855,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--1:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--1:hover .works__link {
       opacity: 1 !important; }
   .works__bg--2 {
@@ -8871,9 +8869,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--2:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--2:hover .works__link {
       opacity: 1 !important; }
   .works__bg--3 {
@@ -8887,9 +8883,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--3:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--3:hover .works__link {
       opacity: 1 !important; }
   .works__bg--4 {
@@ -8903,9 +8897,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--4:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--4:hover .works__link {
       opacity: 1 !important; }
   .works__bg--5 {
@@ -8919,9 +8911,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--5:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--5:hover .works__link {
       opacity: 1 !important; }
   .works__bg--6 {
@@ -8935,9 +8925,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--6:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--6:hover .works__link {
       opacity: 1 !important; }
   .works__bg--7 {
@@ -8951,9 +8939,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--7:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--7:hover .works__link {
       opacity: 1 !important; }
   .works__bg--8 {
@@ -8967,9 +8953,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     border: 1px solid #fff; }
     .works__bg--8:hover .works__content {
-      opacity: .7;
-      -webkit-perspective: 200px;
-              perspective: 200px; }
+      opacity: .7; }
     .works__bg--8:hover .works__link {
       opacity: 1 !important; }
   .works__content {
@@ -9064,13 +9048,22 @@ button.swiper-pagination-bullet {
     margin: 0; }
   .testimonials__wrap {
     padding: 0; }
-  .testimonials__img {
+  .testimonials__img--1 {
     height: 500px;
     padding: 0;
-    background: #53354a url("../img/testimonials.jpg") no-repeat center;
-    background-size: cover; }
+    background-size: cover;
+    background: #53354a url("../img/testimonials-1.jpg") no-repeat center; }
     @media only screen and (max-width: 991px) {
-      .testimonials__img {
+      .testimonials__img--1 {
+        height: 250px;
+        background-position: center top; } }
+  .testimonials__img--2 {
+    height: 500px;
+    padding: 0;
+    background-size: cover;
+    background: #53354a url("../img/testimonials-2.jpg") no-repeat center; }
+    @media only screen and (max-width: 991px) {
+      .testimonials__img--2 {
         height: 250px;
         background-position: center top; } }
   .testimonials__content {
